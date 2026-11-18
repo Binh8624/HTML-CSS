@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+   * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: monospace;
+      text-align: center;
+    }
+
+    body {
+      background: #f4f5f8;
+      padding: 20px;
+    }
+
+    .container {
+      width: 650px;
+      margin: 0 auto;
+      border: 2px solid #333;
+      background: #fff;
+    }
+
+    header, nav, footer {
+      padding: 20px;
+      border-bottom: 2px solid #333;
+    }
+
+    footer {
+      border-bottom: none;
+    }
+
+    main {
+      display: flex;
+      border-bottom: 2px solid #333;
+      min-height: 150px;
+    }
+
+    .main-content {
+      flex: 7;
+      padding: 20px;
+      border-right: 2px solid #333;
+    }
+
+    aside {
+      flex: 4;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <header>
+      <header> (Logo, Title, Nav)
+    </header>
+
+    <nav>
+      <nav> (Menu liên kết)
+    </nav>
+
+    
+    <main>
+      <div class="main-content">
+        <main> (Nội dung chính)
+      </div>
+
+      <aside>
+        <div><aside></div>
+        <div>(Sidebar, Quảng cáo)</div>
+      </aside>
+    </main>
+
+    
+    <footer>
+      <footer> (Chân trang, Copyright)
+    </footer>
+  </div>
+
+</body>
+</html>
